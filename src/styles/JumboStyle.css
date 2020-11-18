@@ -1,0 +1,51 @@
+.mainJumboStyle {
+    background-color: #ede4dc !important;
+    border-radius   : 0% !important;
+}
+
+.formStyle {
+
+    border-radius: 0% !important;
+}
+
+.jumboButtonStyle {
+    padding-left    : 5% !important;
+    padding-right   : 5% !important;
+    background-color: #ff9634 !important;
+    border          : #ff9634 !important;
+    border-radius   : 0% !important;
+    font-weight     : bolder !important;
+}
+
+.linkStyle {
+    color      : #ff9634;
+    font-weight: 600;
+}
+
+.linkStyle :hover {
+    color: #FFEDDA;
+}
+
+.loginStyle {
+    margin-top  : 15%;
+    margin-left : 20%;
+    margin-right: 20%;
+}
+
+.firstRow {
+    margin-left: 5% !important;
+    font-style : oblique;
+}
+
+.secondRow {
+    width       : 50%;
+    margin-left : 25%;
+    margin-right: 25%;
+
+}
+
+.thirdRow {
+    font-weight : 700;
+    font-style  : italic;
+    margin-right: 10% !important;
+}

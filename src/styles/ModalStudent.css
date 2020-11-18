@@ -1,0 +1,37 @@
+.headerStyle {
+    background   : #ff9634;
+    border-radius: 0% !important;
+    border       : none !important
+}
+
+.titleModalStyle {
+    margin      : 20%;
+    margin-left : 25%;
+    margin-right: 25%;
+    color       : white;
+}
+
+.bodyModalStyle {
+    background-color: #ede4dc;
+    border-radius   : 0% !important;
+    border          : none !important;
+}
+
+.picModalStyle {
+    width : 100%;
+    margin: 0%;
+}
+
+.footerModalStyle {
+    background-color: #ede4dc;
+    border-radius   : 0% !important;
+    border          : none !important;
+}
+
+.buttonStyle {
+    margin-top      : 10%;
+    background-color: #ff9634 !important;
+    border          : #ff9634 !important;
+    border-radius   : 0% !important;
+    font-weight     : bolder !important;
+}

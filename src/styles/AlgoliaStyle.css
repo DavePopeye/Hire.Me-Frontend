@@ -1,0 +1,27 @@
+.ais-SearchBox {
+    margin: 50px !important;
+}
+
+.ais-ClearRefinements-button {
+    background-color: #ff932e !important;
+    border-radius   : 0%;
+    margin-left     : 0%;
+
+
+}
+
+.ais-RefinementList-showMore {
+    background-color: #FFEDDA;
+    border-radius   : 0%;
+    color           : #ff932e;
+    font-weight     : 700;
+
+}
+
+.candidateStyle {
+    margin-left: 8.5% !important;
+}
+
+.ais-RefinementList-checkbox {
+    margin: 10px !important;
+}

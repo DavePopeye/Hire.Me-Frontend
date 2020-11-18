@@ -1,0 +1,32 @@
+.containerStyle {
+    width: 80% !important;
+}
+
+.cardStyle {
+    border-radius: 0% !important;
+    width        : 100%;
+
+}
+
+.picStyle {
+    width: 50%;
+
+
+    margin: 10%;
+}
+
+.cardBodyStyle {
+    margin-top: 10%;
+}
+
+.cardTextStyle {
+    line-height: 80%;
+}
+
+.buttonStyle {
+    margin-top      : 10%;
+    background-color: #ff9634 !important;
+    border          : #ff9634 !important;
+    border-radius   : 0% !important;
+    font-weight     : bolder !important;
+}
