@@ -8,7 +8,7 @@ import "../../styles/ModalStudent.css";
 function StudentModal(props) {
   const sendEmail = async () => {
     const res = await fetch(
-      `${process.env.REACT_APP_URL_BE}/hirers/sendEmail`,
+      `https://hire-dot-me-backend.herokuapp.com/hirers/sendEmail`,
       {
         method: "POST",
         headers: {

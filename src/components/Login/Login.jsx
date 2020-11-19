@@ -13,16 +13,19 @@ class LoginForm extends Component {
   login = async (event) => {
     event.preventDefault();
     //const history = createBrowserHistory();
-    const res = await fetch(`${process.env.REACT_APP_URL_BE}/hirers/login`, {
-      headers: {
-        "Content-Type": "application/json",
-      },
-      method: "POST",
-      body: JSON.stringify({
-        email: this.state.email,
-        password: this.state.password,
-      }),
-    });
+    const res = await fetch(
+      `https://hire-dot-me-backend.herokuapp.com/hirers/login`,
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+        body: JSON.stringify({
+          email: this.state.email,
+          password: this.state.password,
+        }),
+      }
+    );
     if (res.ok) {
       console.log(res);
       const json = await res.json();

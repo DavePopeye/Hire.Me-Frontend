@@ -34,7 +34,7 @@ export default class StudentsCard extends Component {
 
   componentDidMount = async () => {
     let response = await fetch(
-      "http://localhost:3001/students?limit=9&role=user"
+      "https://hire-dot-me-backend.herokuapp.com/students?limit=9&role=user"
     );
     console.log("cuzzocazzo" + this.props.hits);
     let parsedJson = await response.json();
