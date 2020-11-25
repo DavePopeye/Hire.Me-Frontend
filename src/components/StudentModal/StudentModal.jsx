@@ -28,15 +28,15 @@ function StudentModal(props) {
   return (
     <Modal {...props} className="mainModalStyle" size="lg" centered>
       <Modal.Header closeButton className="headerStyle">
-        <Col>
+        <Col className="p-0 m-0">
           <Image
             src={props.image || portrait}
-            className="picModalStyle"
+            className="picModalStyle "
             alt="profile's image"
           />
         </Col>
         <Col>
-          <Modal.Title className="titleModalStyle">
+          <Modal.Title className="titleModalStyle ">
             {props.name} {props.surname}
           </Modal.Title>
         </Col>
@@ -53,7 +53,7 @@ function StudentModal(props) {
         </Button>
         <Button
           className="buttonStyle m-1"
-          onClick={() => ((window.open = props.linkedinProfile), "_blank")}
+          onClick={() => window.open(props.linkedinProfile, "_blank")}
         >
           <FaLinkedin className="iconStyle" size={40} />
         </Button>

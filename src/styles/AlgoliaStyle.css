@@ -1,19 +1,21 @@
 .ais-SearchBox {
-    margin: 50px !important;
+    margin-top   : 50px;
+    margin-bottom: 20px;
+    margin-left  : 2px;
+
 }
 
 .ais-ClearRefinements-button {
-    background-color: #ff932e !important;
+    background-color: #ff9634 !important;
     border-radius   : 0%;
     margin-left     : 0%;
-
-
+    margin-top      : 20px;
 }
 
 .ais-RefinementList-showMore {
     background-color: #FFEDDA;
     border-radius   : 0%;
-    color           : #ff932e;
+    color           : #ff9634;
     font-weight     : 700;
 
 }
@@ -24,4 +26,29 @@
 
 .ais-RefinementList-checkbox {
     margin: 10px !important;
+}
+
+.ais-CurrentRefinements-item {
+    background-color: rgb(245, 245, 245);
+    border-radius   : 0%;
+    font-weight     : 700;
+    margin-left     : 19px;
+}
+
+.ais-CurrentRefinements-categoryLabel {
+    color      : black;
+    font-style : oblique;
+    margin-left: 5px;
+}
+
+.ais-CurrentRefinements-delete {
+    color: black;
+
+}
+
+.ais-CurrentRefinements-label {
+    color: black;
+
+
+
 }

@@ -61,22 +61,21 @@ export default class StudentsCard extends Component {
                     <Col className="col-10 col-md-10">
                       <Card className="shadow cardStyle fluid my-4">
                         <Row>
-                          <Col>
+                          <Col className="col-5">
                             <Image
                               src={user.image || portrait}
                               className="picStyle"
                             />
                           </Col>
                           <Col>
-                            <Card.Body className="cardBodyStyle">
+                            <Card.Body className="cardBodyStyle col-9">
                               <Card.Title>
                                 {user.name} {user.surname}
                               </Card.Title>
                               <Card.Text className="cardTextStyle">
-                                <p>Age: {user.age}</p>
                                 <p>{user.country}</p>
                                 {user.skills.map((skill) => (
-                                  <Badge className="m-1" variant="warning">
+                                  <Badge className="m-1 labelStyle">
                                     {skill}
                                   </Badge>
                                 ))}
